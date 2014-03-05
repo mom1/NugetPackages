@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dbForgesqlru</id>
+    <title>dbForgesqlru</title>
+    <version>3.5.86</version>
+    <authors>Devart</authors>
+    <owners>MOM</owners>
+    <summary>dbForge Studio for SQL Server — среда разработки для БД SQL Server - See more at: http://www.devart.com/</summary>
+    <description>dbForge Studio for SQL Server — среда разработки для БД SQL Server, создания отчетов по данным, их анализа, и основных задач администрирования. Данный инструмент ускоряет выполнение повседневных задач и позволяет вносить сложные изменения в БД.</description>
+    <projectUrl>http://www.devart.com/</projectUrl>
+    <iconUrl>http://www.devart.com/images/logo/devart_logo.png</iconUrl>
+    <tags>sql dbForge</tags>
+    <copyright>Devart</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
