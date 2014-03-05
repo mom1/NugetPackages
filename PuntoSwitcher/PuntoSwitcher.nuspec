@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>puntoswitcher</id>
+    <title>PuntoSwitcher</title>
+    <version>3.2.9</version>
+    <authors>Yandex</authors>
+    <owners>MOM</owners>
+    <summary>Программа для автоматического переключения между различными раскладками клавиатуры</summary>
+    <description>Punto Switcher — программа, которая следит за раскладкой клавиатуры. Она знает, что «ghbdtn» — это «привет», а «пщщв ьщктштп» — это «good morning».</description>
+    <projectUrl>http://punto.yandex.ru/</projectUrl>
+    <iconUrl>http://avatars.yandex.net/get-dps/df9d70a5d2740ddfd166c189a555df99/normal</iconUrl>
+    <tags>punto switcher puntoswitcher</tags>
+    <copyright>Yandex</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
