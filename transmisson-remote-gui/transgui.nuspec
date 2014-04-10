@@ -2,8 +2,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>transgui</id>
-    <title>transgui</title>
-    <version>5.0.1</version>
+    <title>Transmission Remote GUI</title>
+    <version>5.0.1.20140410</version>
     <authors>Yuri Sidorov</authors>
     <owners>MOM</owners>
     <summary>Cross platform remote GUI for the Transmission Bit-Torrent client</summary>
@@ -13,6 +13,27 @@
     <tags>transmission transmission-gui torrent download magnet</tags>
     <copyright>Yuri Sidorov</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+Version 5.0.1 released!
+
+* An option to change a torrent's file/folder name during addition (Transmission 2.80+ only).  Issue #498 .
+* Renaming of existing torrents, files and folders (Transmission 2.80+ only).  Issue #498 .
+* Display files list as a tree in the Files tab.  Issue #572 .
+* Show check boxes in the Files tree to allow more user friendly selection of files to be downloaded.
+* Import trackers from a duplicate torrent.  Issue #522 .
+* Option "Average out transfer speeds to eliminate fluctuations". ETA is much more reliable now.  Issue #193 .
+* When a completed torrent is double clicked, its file/folder is opened if possible.  Issue #675 .
+* Free disk space is updated when changing a destination folder in the Add torrent window (Transmission 2.80+ only).  Issue #665 .
+* Options to control handling of .torrent files and magnet links on Windows.  Issue #645 .
+* Added column "Seeding time". Also display seeding time in the "Share ratio" field in the torrent info pane.  Issue #591 .
+* Option "Show notifications in tray icon".  Issue #590 .
+* Display the number of files in the title of the Files tab.
+* Option "Ask for password".  Issue #152 .
+* Removed flickering of torrent details while changing current torrent.
+* Speed up rendering of torrent and file lists.
+* Use system default date/time format on Linux and OS X.  Issue #624 .
+* Many bug fixes.    
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
