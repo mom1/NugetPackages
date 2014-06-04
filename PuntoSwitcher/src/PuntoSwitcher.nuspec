@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if "?" doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>PuntoSwitcher</id>
+    <title>PuntoSwitcher</title>
+    <version>3.3.1</version>
+    <authors>Yandex</authors>
+    <owners>MOM</owners>
+    <summary>Программа для автоматического переключения между различными раскладками клавиатуры</summary>
+    <description>Punto Switcher — программа, которая следит за раскладкой клавиатуры. Она знает, что «ghbdtn» — это «привет», а «пщщв ьщктштп» — это «good morning».</description>
+    <projectUrl>http://punto.yandex.ru/</projectUrl>
+    <tags>punto switcher puntoswitcher admin</tags>
+    <copyright>Yandex</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://avatars.yandex.net/get-dps/df9d70a5d2740ddfd166c189a555df99/normal</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>
+Что нового в этой версии:
+• Альтернативный механизм автозагрузки в Windows 8. 
+• Автоматическое включение английской раскладки при вводе паролей (слов с цифрами и символами, а также смешением строчных и заглавных букв). 
+• Устранены конфликты в правилах переключения для некоторых европейских языков. 
+• Исправлены ошибки при работе на начальном экране Windows 8. 
+• Улучшено поведение программы в браузере Mozilla Firefox. 
+• Повышена безопасность дневника.
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,5 +1,6 @@
-﻿<?xml version="1.0"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>transgui</id>
     <title>Transmission Remote GUI</title>
@@ -9,10 +10,13 @@
     <summary>Cross platform remote GUI for the Transmission Bit-Torrent client</summary>
     <description>Transmission Remote GUI is a feature rich cross platform front-end to remotely control a Transmission Bit-Torrent client daemon via its RPC protocol. Transmission Remote GUI is faster and has more functionality than the built-in Transmission web interface.</description>
     <projectUrl>https://code.google.com/p/transmisson-remote-gui/</projectUrl>
-    <iconUrl>https://code.google.com/p/transmisson-remote-gui/logo?cct=1382194910</iconUrl>
-    <tags>transmission transmission-gui torrent download magnet</tags>
+    <tags>transmission transmission-gui torrent download magnet admin</tags>
     <copyright>Yuri Sidorov</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://code.google.com/p/transmisson-remote-gui/logo?cct=1382194910</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
     <releaseNotes>
 Version 5.0.1 released!
 
