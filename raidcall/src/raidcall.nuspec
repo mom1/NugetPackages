@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>raidcall</id>
+    <title>RaidCall</title>
+    <version>7.3.4</version>
+    <authors>raidcall</authors>
+    <owners>MOM</owners>
+    <summary>RaidCall это БЕСПЛАТНАЯ программа для текстового / голосового общения.</summary>
+    <description>RaidCall - бесплатная и простая программа, позволяющая моментально связаться с друзьями. Она вобрала элементы мгновенной передачи сообщений, групповую связь и голосовое общение в профессиональную программу для группового общения. Более того, это лучший выбор для любителей компьютерных игр. RaidCall предоставляет высококачественную голосовую систему для игроков и позволяет испытать абсолютно новые ощущения за счёт несравненной функциональности и полезных функции.</description>
+    <projectUrl>http://www.raidcall.com/</projectUrl>
+    <tags>game games gaming im sound communication audio raidcall admin</tags>
+    <copyright>Copyright (C) 2010-2014 raidcall.com All Rights Reserved.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://www.raidcall.com.ru/v7/v7img/raidcall-icon-64.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
