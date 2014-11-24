@@ -1,5 +1,5 @@
 ﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
-$version = "7.3.4"
+$version = "7.3.6"
 $packageName = 'raidcall' # arbitrary name for the package, used in messages
 $installerType = 'EXE' #only one of these: exe, msi, msu
 $url = "http://update.raidcall.com.ru/download/raidcall_v$version.exe" # download url

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>raidcall</id>
-    <title>RaidCall</title>
-    <version>7.3.4</version>
+    <id>raidcallru</id>
+    <title>RaidCallRu</title>
+    <version>7.3.6</version>
     <authors>raidcall</authors>
     <owners>MOM</owners>
     <summary>RaidCall это БЕСПЛАТНАЯ программа для текстового / голосового общения.</summary>

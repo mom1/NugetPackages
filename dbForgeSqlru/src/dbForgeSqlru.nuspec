@@ -3,7 +3,7 @@
   <metadata>
     <id>dbForgeSqlru</id>
     <title>dbForgeSqlru</title>
-    <version>3.5.93</version>
+    <version>3.8.180</version>
     <authors>Devart</authors>
     <owners>MOM</owners>
     <summary>dbForge Studio for SQL Server — среда разработки для БД SQL Server - See more at: http://www.devart.com/</summary>
@@ -16,7 +16,75 @@
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+3.8.180 17-Jun-14
+------------------------
+* Final Version Released!
+* Minor bugfixes and improvements.
+
+3.8.171 beta 29-May-14
+------------------------
+* SQL Server 2014 support
+** Now dbForge Studio for SQL Server supports the latest SQL Server 2014.
+** Database
+** Generate Script As shortcut menu option is added
+** Database Visual Editor is added
+** Database Backup and Restore features are added
+** Possibility to attach and detach a database is added
+** Take Offline and Bring Online database states are added
+** Copying a database from one server to another using the MS Agent is possible now
+* Generate Schema Script
+** Saving the options setting for future use
+** Support of command line interface
+** Automatic archiving of schema export scripts
+** Writing a report about the process into a log file
+** Automatic old files removal based on date or quantity
+* Database Explorer
+** Filter settings are available now
+** Objects' dependencies view is supported
+** Possibility to duplicate an object is added
+** Renaming a table through the Database Explorer is possible
+** Delete shortcut menu command is available for all objects' types
+** Disable and enable trigger's menu options are added
+** Each database state has its corresponding icon now
+** Changing a database object name is now possible
+* Object Editors
+** Database Visual Editor is added
+** Statistics Properties visual editor is added
+** Code preview when editing columns, indexes, etc. is possible now
+** Index editor is improved
+* Code Completion
+** New CREATE COLUMNSTORE INDEX statement syntax is supported
+** New keywords in the CREATE TABLE statement are supported
+** New keywords in the CREATE INDEX statement are supported
+** New keywords in the CREATE PROCEDURE statement are supported
+** Members prompt for user-defined table type is supported
+** Refactoring aliases is possible now
+* Data Compare/Schema Compare
+** COLUMNSTORE index is supported
+** Check for object existence option is added to the synchronization wizard
+** Ignore column order in indexes option is added
+** ALTER SCHEMA feature for objects transferring between the schemas is supported
+** Include print comments option is added
+** Exclude comments option is added
+* SQL Profiler
+** Query plans can be saved visually
+** Results comparison is executed when the required elements are selected
+** Various queries plans can be shown vertically in one view when comparing
+** Buffer and plans cache refresh options are added
+** Zoom menu in the Profiler diagram is available
+* User Interface
+** Switching tabs by the CTRL+ALT+PAGE UP and CTRL+ALT+PAGE DOWN keys combination
+** SSMS shortcut schema availability
+* Other Features and Improvements
+** Coloring a database connection according to the document category is possible now
+** Database connection properties are expanded
+** SET connection options in query execution are added
+** Possibility to switch from the wizard page to the main application window is added
+** Find Objects feature is expanded
+** Restoring the documents opened in the last session is possible now
+** SQL document zooming by holding the CTRL key and rotating the mouse wheel is added
+</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

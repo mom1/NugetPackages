@@ -2,7 +2,7 @@
 
 $packageName = 'PuntoSwitcher' # arbitrary name for the package, used in messages
 $installerType = 'EXE' #only one of these: exe, msi, msu
-$url = 'http://download.cdn.yandex.net.cache-default02e.cdn.yandex.net/punto/PuntoSwitcherSetup.exe' # download url
+$url = 'http://punto.yandex.ru/download/?os=win' # download url
 $silentArgs = '/quiet' # "/s /S /q /Q /quiet /silent /SILENT /VERYSILENT" # try any of these to get the silent installer #msi is always /quiet
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
