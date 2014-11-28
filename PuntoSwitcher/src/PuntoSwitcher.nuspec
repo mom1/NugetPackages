@@ -7,12 +7,14 @@
     <version>3.3.1.20141124</version>
     <authors>Yandex</authors>
     <owners>MOM</owners>
-    <summary>Программа для автоматического переключения между различными раскладками клавиатуры</summary>
-    <description>Punto Switcher — программа, которая следит за раскладкой клавиатуры. Она знает, что «ghbdtn» — это «привет», а «пщщв ьщктштп» — это «good morning».</description>
+    <summary>Program to automatically switch between different keyboard layouts</summary>
+    <description>Punto Switcher — программа, которая следит за раскладкой клавиатуры. Она знает, что «ghbdtn» — это «привет», а «пщщв ьщктштп» — это «good morning».
+    Punto Switcher - a program that monitors the keyboard layout. She knows that «ghbdtn» - a "привет" and "пщщв ьщктштп" - a «good morning».
+    </description>
     <projectUrl>http://punto.yandex.ru/</projectUrl>
     <tags>punto switcher puntoswitcher admin</tags>
     <copyright>Yandex</copyright>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://legal.yandex.ru/punto_agreement/</licenseUrl>
     <iconUrl>http://avatars.yandex.net/get-dps/df9d70a5d2740ddfd166c189a555df99/normal</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
