@@ -9,7 +9,7 @@
     <owners>MOM</owners>
     <summary>Program to automatically switch between different keyboard layouts</summary>
     <description>Punto Switcher — программа, которая следит за раскладкой клавиатуры. Она знает, что «ghbdtn» — это «привет», а «пщщв ьщктштп» — это «good morning».
-    Punto Switcher - a program that monitors the keyboard layout. She knows that «ghbdtn» - a "привет" and "пщщв ьщктштп" - a «good morning».
+    Punto Switcher - a program that monitors the keyboard layout.
     </description>
     <projectUrl>http://punto.yandex.ru/</projectUrl>
     <tags>punto switcher puntoswitcher admin</tags>
