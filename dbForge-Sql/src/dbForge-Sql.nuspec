@@ -14,7 +14,7 @@
     dbForge Studio for SQL Server — среда разработки для БД SQL Server, создания отчетов по данным, их анализа, и основных задач администрирования. Данный инструмент ускоряет выполнение повседневных задач и позволяет вносить сложные изменения в БД.
     </description>
     <projectUrl>http://www.devart.com/</projectUrl>
-    <tags>dbForgeSqlru admin free</tags>
+    <tags>dbForgeSql Sql IDE admin free</tags>
     <copyright>Devart</copyright>
     <licenseUrl>http://www.devart.com/dbforge/sql/studio/eula.html</licenseUrl>
     <iconUrl>https://raw.githubusercontent.com/mom1/NugetPackages/master/dbForge-Sql/src/dbForgeSQL.png</iconUrl>
