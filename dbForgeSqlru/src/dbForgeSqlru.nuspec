@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dbForgeSqlru</id>
-    <title>dbForgeSqlru</title>
-    <version>4.0.35</version>
+    <title>dbForgeSqlru [DEPRECATED]</title>
+    <version>4.0.35.20141208</version>
     <authors>Devart</authors>
     <owners>MOM</owners>
     <summary>dbForge Studio for SQL Server — среда разработки для БД SQL Server</summary>
