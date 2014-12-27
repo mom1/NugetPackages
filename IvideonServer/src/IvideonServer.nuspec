@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if "?" doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IvideonServer</id>
+    <title>IvideonServer</title>
+    <version>3.5.1</version>
+    <authors>Ivideon</authors>
+    <owners>MOM</owners>
+    <summary>Ivideon is a cloud-based video surveillance service</summary>
+    <description>Ivideon is a cloud-based video surveillance service.
+
+Ivideon allows you to access your cameras and archive records wherever you are via a computer, smartphone or a tablet. It alerts you when your camera goes offline or detects motion. It keeps your video safe in a cloud storage.
+    </description>
+    <projectUrl>http://www.ivideon.com/</projectUrl>
+    <tags>ivideon video camera cloud admin</tags>
+    <copyright>Ivideon</copyright>
+    <licenseUrl>http://www.ivideon.com/terms-of-service/</licenseUrl>
+    <iconUrl>http://static.iv-cdn.com/assets/1419519014/ivideon/site-base/img/tv/ivideon-thumbnail_200x200.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>* Исправлен авто-запуск на Linux.
+* Исправлено отключение сервера при потере интернет-соединения.
+* Расширен список поддерживаемых камер.
+* Исправлены мелкие ошибки.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
