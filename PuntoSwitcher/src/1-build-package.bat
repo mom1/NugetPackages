@@ -18,16 +18,17 @@ set "SRC_DIR=%~dp0"
 set "BUILD_DIR=..\build\%PACKAGE_NANE%"
 
 if exist "%BUILD_DIR%" (
-	for %%i IN (%BUILD_DIR%\*) DO del %%i
+    for %%i IN (%BUILD_DIR%\*) DO del %%i
 ) else (
-	mkdir %BUILD_DIR%
+    mkdir %BUILD_DIR%
 )
 
 rem  Create package.
-call cpack "-OutputDirectory %BUILD_DIR%"
+call cpack -y
+move "%SRC_DIR%\*.nupkg" "%BUILD_DIR%"
 
 if not "%1" == "1" (
-	pause
+    pause
 )
 
 @endlocal
