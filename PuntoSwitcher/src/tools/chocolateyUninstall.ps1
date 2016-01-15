@@ -1,11 +1,18 @@
-$package = 'PuntoSwitcher'
-
+$packageName = 'puntoswitcher'
+$packageSearch = "Punto Switcher"
+$installerType = 'msi'
+$silentArgs = '/qb-! REBOOT=ReallySuppress'
+$validExitCodes = @(0,3010)
 try {
-  $msiArgs = "/X{57B1BFB9-44BD-4190-954C-37ABB193A557} /qb-! REBOOT=ReallySuppress"
-  Start-ChocolateyProcessAsAdmin "$msiArgs" 'msiexec'
-
-  Write-ChocolateySuccess $package
+  Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
+                   -ErrorAction:SilentlyContinue `
+  | Where-Object   { $_.DisplayName -like "$packageSearch*" } `
+  | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                                                 -FileType "$installerType" `
+                                                 -SilentArgs "$($_.PSChildName) $silentArgs" `
+                                                 -ValidExitCodes $validExitCodes }
 } catch {
-  Write-ChocolateyFailure $package "$($_.Exception.Message)"
-  throw
+  throw $_.Exception
 }

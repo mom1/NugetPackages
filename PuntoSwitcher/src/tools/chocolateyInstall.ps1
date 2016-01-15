@@ -1,6 +1,6 @@
 ﻿$packageName = 'PuntoSwitcher'
 $installerType = 'EXE'
-$url = 'http://punto.yandex.ru/download/?os=win'
+$url = 'https://download.cdn.yandex.net/punto/PuntoSwitcherSetup_410.exe'
 $silentArgs = '/quiet'
 $validExitCodes = @(0)
 

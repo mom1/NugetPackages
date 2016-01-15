@@ -2,8 +2,8 @@
 <!-- Do not remove this test for UTF-8: if "?" doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>PuntoSwitcher</id>
-    <title>PuntoSwitcher</title>
+    <id>puntoswitcher</id>
+    <title>Punto Switcher</title>
     <version>4.1</version>
     <authors>Yandex</authors>
     <owners>MOM</owners>
@@ -12,6 +12,8 @@
     Punto Switcher - a program that monitors the keyboard layout.
     </description>
     <projectUrl>http://punto.yandex.ru/</projectUrl>
+    <packageSourceUrl>https://github.com/mom1/NugetPackages/tree/master/PuntoSwitcher</packageSourceUrl>
+    <docsUrl>https://yandex.ru/support/punto-win/</docsUrl>
     <tags>punto switcher puntoswitcher admin</tags>
     <copyright>Yandex</copyright>
     <licenseUrl>https://legal.yandex.ru/punto_agreement/</licenseUrl>
