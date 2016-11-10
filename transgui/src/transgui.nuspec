@@ -9,11 +9,11 @@
     <owners>MOM</owners>
     <summary>Cross platform remote GUI for the Transmission Bit-Torrent client</summary>
     <description>Transmission Remote GUI is a feature rich cross platform front-end to remotely control a Transmission Bit-Torrent client daemon via its RPC protocol. Transmission Remote GUI is faster and has more functionality than the built-in Transmission web interface.</description>
-    <projectUrl>https://code.google.com/p/transmisson-remote-gui/</projectUrl>
+    <projectUrl>https://sourceforge.net/projects/transgui/</projectUrl>
     <tags>transmission transmission-gui torrent download magnet admin</tags>
     <copyright>Yuri Sidorov</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://code.google.com/p/transmisson-remote-gui/logo?cct=1382194910</iconUrl>
+    <iconUrl>https://a.fsdn.com/allura/p/transgui/icon</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
