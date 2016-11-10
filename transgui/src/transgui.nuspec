@@ -4,7 +4,7 @@
   <metadata>
     <id>transgui</id>
     <title>Transmission Remote GUI</title>
-    <version>5.0.1.20140410</version>
+    <version>5.0.1.20161110</version>
     <authors>Yuri Sidorov</authors>
     <owners>MOM</owners>
     <summary>Cross platform remote GUI for the Transmission Bit-Torrent client</summary>

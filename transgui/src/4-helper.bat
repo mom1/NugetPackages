@@ -22,10 +22,10 @@ goto end
 set MESSAGE_TEXT=[Y/Yes,N/No,C/Cancel]:
 CHOICE /C %KEY_LIST% /D %YES_KEY% /T %TIMEOUT% /M %1%MESSAGE_TEXT% /N
 if %ERRORLEVEL% == 1 (
-	call %2 1
+    call %2 1
 )
 if %ERRORLEVEL% == 3 (
-	goto end
+    goto end
 )
 exit /b
 

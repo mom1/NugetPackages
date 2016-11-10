@@ -1,12 +1,6 @@
-﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
-$version = "5.0.1"
-$packageName = 'transgui' # arbitrary name for the package, used in messages
-$installerType = 'EXE' #only one of these: exe, msi, msu
-$url = "https://transmisson-remote-gui.googlecode.com/files/transgui-$version-setup.exe" # download url
-$silentArgs = '/silent' # "/s /S /q /Q /quiet /silent /SILENT /VERYSILENT" # try any of these to get the silent installer #msi is always /quiet
-# $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-
-# main helpers - these have error handling tucked into them already
-# installer, will assert administrative rights
-# if removing $url64, please remove from here
+﻿$version = "5.0.1"
+$packageName = 'transgui'
+$installerType = 'EXE'
+$url = "https://sourceforge.net/projects/transgui/files/$version/transgui-$version-setup.exe/download"
+$silentArgs = '/silent' 
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"
