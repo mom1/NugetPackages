@@ -1,35 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if "?" doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>puntoswitcher</id>
+    <version>4.4</version>
     <title>Punto Switcher</title>
-    <version>4.1</version>
     <authors>Yandex</authors>
     <owners>MOM</owners>
-    <summary>Program to automatically switch between different keyboard layouts</summary>
-    <description>Punto Switcher — программа, которая следит за раскладкой клавиатуры. Она знает, что «ghbdtn» — это «привет», а «пщщв ьщктштп» — это «good morning».
-    Punto Switcher - a program that monitors the keyboard layout.
-    </description>
+    <licenseUrl>https://legal.yandex.ru/punto_agreement/</licenseUrl>
     <projectUrl>http://punto.yandex.ru/</projectUrl>
+    <iconUrl>http://avatars.yandex.net/get-dps/df9d70a5d2740ddfd166c189a555df99/normal</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Punto Switcher — программа, которая следит за раскладкой клавиатуры. Она знает, что «ghbdtn» — это «привет», а «пщщв ьщктштп» — это «good morning».
+    Punto Switcher - a program that monitors the keyboard layout.</description>
+    <summary>Program to automatically switch between different keyboard layouts</summary>
+    <releaseNotes>• Improved interaction with popular programs in Windows 10.
+• Eliminated the problems in the work of the Diary.
+• Fixed many small but annoying mistakes.</releaseNotes>
+    <copyright>Yandex</copyright>
+    <tags>punto switcher puntoswitcher admin</tags>
     <packageSourceUrl>https://github.com/mom1/NugetPackages/tree/master/PuntoSwitcher</packageSourceUrl>
     <docsUrl>https://yandex.ru/support/punto-win/</docsUrl>
-    <tags>punto switcher puntoswitcher admin</tags>
-    <copyright>Yandex</copyright>
-    <licenseUrl>https://legal.yandex.ru/punto_agreement/</licenseUrl>
-    <iconUrl>http://avatars.yandex.net/get-dps/df9d70a5d2740ddfd166c189a555df99/normal</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes>
-* Full support for Windows 10.
-* Improved handling of typos when accidentally pressed close proximity keys.
-* Fixed problem with hanging the program Microsoft Outlook.
-* Solved problems with switching to manual mode in the 1C.
-* Stabilize the chats Skype.
-    </releaseNotes>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>

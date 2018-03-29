@@ -1,45 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>transgui</id>
+    <version>5.15.2</version>
     <title>Transmission Remote GUI</title>
-    <version>5.0.1.20161110</version>
     <authors>Yuri Sidorov</authors>
     <owners>MOM</owners>
-    <summary>Cross platform remote GUI for the Transmission Bit-Torrent client</summary>
-    <description>Transmission Remote GUI is a feature rich cross platform front-end to remotely control a Transmission Bit-Torrent client daemon via its RPC protocol. Transmission Remote GUI is faster and has more functionality than the built-in Transmission web interface.</description>
-    <projectUrl>https://sourceforge.net/projects/transgui/</projectUrl>
-    <tags>transmission transmission-gui torrent download magnet admin</tags>
-    <copyright>Yuri Sidorov</copyright>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/transmission-remote-gui/transgui/master/COPYING.txt</licenseUrl>
+    <projectUrl>https://github.com/transmission-remote-gui/transgui</projectUrl>
     <iconUrl>https://a.fsdn.com/allura/p/transgui/icon</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes>
-Version 5.0.1 released!
-
-* An option to change a torrent's file/folder name during addition (Transmission 2.80+ only).  Issue #498 .
-* Renaming of existing torrents, files and folders (Transmission 2.80+ only).  Issue #498 .
-* Display files list as a tree in the Files tab.  Issue #572 .
-* Show check boxes in the Files tree to allow more user friendly selection of files to be downloaded.
-* Import trackers from a duplicate torrent.  Issue #522 .
-* Option "Average out transfer speeds to eliminate fluctuations". ETA is much more reliable now.  Issue #193 .
-* When a completed torrent is double clicked, its file/folder is opened if possible.  Issue #675 .
-* Free disk space is updated when changing a destination folder in the Add torrent window (Transmission 2.80+ only).  Issue #665 .
-* Options to control handling of .torrent files and magnet links on Windows.  Issue #645 .
-* Added column "Seeding time". Also display seeding time in the "Share ratio" field in the torrent info pane.  Issue #591 .
-* Option "Show notifications in tray icon".  Issue #590 .
-* Display the number of files in the title of the Files tab.
-* Option "Ask for password".  Issue #152 .
-* Removed flickering of torrent details while changing current torrent.
-* Speed up rendering of torrent and file lists.
-* Use system default date/time format on Linux and OS X.  Issue #624 .
-* Many bug fixes.    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Transmission Remote GUI is a feature rich cross platform front-end to remotely control a Transmission Bit-Torrent client daemon via its RPC protocol. Transmission Remote GUI is faster and has more functionality than the built-in Transmission web interface.</description>
+    <summary>Cross platform remote GUI for the Transmission Bit-Torrent client</summary>
+    <releaseNotes>[Release Notes](https://github.com/transmission-remote-gui/transgui/releases)
     </releaseNotes>
+    <copyright>Yuri Sidorov</copyright>
+    <tags>transmission transmission-gui torrent download magnet admin</tags>
+    <packageSourceUrl>https://github.com/mom1/NugetPackages/tree/master/transgui</packageSourceUrl>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
