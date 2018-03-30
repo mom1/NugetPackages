@@ -13,9 +13,24 @@
     <description>Punto Switcher — программа, которая следит за раскладкой клавиатуры. Она знает, что «ghbdtn» — это «привет», а «пщщв ьщктштп» — это «good morning».
     Punto Switcher - a program that monitors the keyboard layout.</description>
     <summary>Program to automatically switch between different keyboard layouts</summary>
-    <releaseNotes>• Improved interaction with popular programs in Windows 10.
-• Eliminated the problems in the work of the Diary.
-• Fixed many small but annoying mistakes.</releaseNotes>
+    <releaseNotes>#### What's new in this version 4.4:
+1. Diary
+    * Added one more item of settings, allowing you to enable or disable saving data from the clipboard in exception programs
+    * Stabilized the work of the Diary
+    * We returned the ability to put the password on the diary and work with it correctly
+1. Social networks
+    Now you can share the experience of using Punto through Google+ and Odnoklassniki
+1. Exception Programs
+    Improved the addition of the program by title
+1. MS Office
+    Improved work with Office2013 and Office2016 on Win7x32
+1. Fixed floating indicator
+    Now it disappears itself, a few seconds after the end of the input, if the corresponding setting is enabled
+1. Hotkeys
+    Removed hot keys using the Win button (due to Win10 upgrade to 1709)
+1. Updated the program help
+1. We fixed compatibility with rare but important programs (GitGUI, Atom)
+    </releaseNotes>
     <copyright>Yandex</copyright>
     <tags>punto switcher puntoswitcher admin</tags>
     <packageSourceUrl>https://github.com/mom1/NugetPackages/tree/master/PuntoSwitcher</packageSourceUrl>
