@@ -18,7 +18,8 @@ set "SRC_DIR=%~dp0"
 set "BUILD_DIR=..\build\%PACKAGE_NANE%"
 
 cd %BUILD_DIR%
-choco install %PACKAGE_NANE% -fdv -s .
+
+call choco install -fvy %PACKAGE_NANE% -source %CD%
 
 if not "%1" == "1" (
     pause
