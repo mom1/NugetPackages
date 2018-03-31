@@ -18,11 +18,9 @@ set "SRC_DIR=%~dp0"
 set "BUILD_DIR=..\build\%PACKAGE_NANE%"
 
 cd %BUILD_DIR%
-
-call cpush %PACKAGE_NANE%.*.nupkg
-
+for %%A in ("%cd%\*.nupkg") do (call choco push -y %%A --source https://push.chocolatey.org/)
 if not "%1" == "1" (
-	pause
+    pause
 )
 
 @endlocal
