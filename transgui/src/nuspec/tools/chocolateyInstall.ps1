@@ -14,4 +14,5 @@ $packageArgs = @{
     silentArgs     = '/CLOSEAPPLICATIONS /verysilent'
     validExitCodes = @(0, 1603)
 }
+if (Get-Process $env:ChocolateyPackageName -ea SilentlyContinue) {Stop-Process -processname $env:ChocolateyPackageName}
 Install-ChocolateyPackage @packageArgs
