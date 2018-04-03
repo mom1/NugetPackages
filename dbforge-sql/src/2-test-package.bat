@@ -19,7 +19,7 @@ set "BUILD_DIR=..\build\%PACKAGE_NANE%"
 
 cd %BUILD_DIR%
 
-call choco install -fvy %PACKAGE_NANE% -source %CD%
+call choco install -fdvy %PACKAGE_NANE% --source %CD%
 
 if not "%1" == "1" (
     pause

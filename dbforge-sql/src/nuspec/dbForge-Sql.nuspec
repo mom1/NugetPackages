@@ -3,7 +3,7 @@
   <metadata>
     <id>dbforge-sql</id>
     <title>dbForge Studio for SQL Server</title>
-    <version>4.0.35</version>
+    <version>5.5.327</version>
     <authors>Devart</authors>
     <owners>MOM</owners>
     <summary>dbForge Studio for SQL Server — среда разработки для БД SQL Server</summary>
@@ -23,80 +23,7 @@ dbForge Studio for SQL Server — среда разработки для БД SQ
     <copyright>Devart</copyright>
     <licenseUrl>http://www.devart.com/dbforge/sql/studio/eula.html</licenseUrl>
     <iconUrl>http://cdn.rawgit.com/mom1/NugetPackages/b4fc4765b9c160c994dbaba32fe6e1bfe0c4b092/dbForge-Sql/src/dbForgeSQL.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
     <releaseNotes>
-4.0.35 17-Nov-14
-
-* User reported bug fixes
-* Some users reported crash on using Product Update Manager (T117601, T117698)
-* Code formatting issue (T117843)
-* Issues when using search window (T117835, T117842)
-* Other minor fixes and stability improvements
-
-4.0.24 10-Nov-14
-
-* SQL Server Events Profiler
-* Create a trace
-* Watch the trace results as the trace runs
-* Store the trace results in a table
-* Start, stop, pause, and modify the trace results as necessary
-* T-SQL Code Analyzer
-* Identify possible code defects
-* Check T-SQL code for compliance with best practices
-* Code analysis profiles
-* SQL Editing and Execution
-* Command-line interface for SQL formatting
-* Changing a snippets folder location
-* Query execution pane
-* Easy way to hide data results
-* Encoding switch in the /execute command-line operation
-* MERGE statement support (syntax checking, formatting)
-* Phrase completion
-* Updated Find and Replace feature in documents and files
-* Database Explorer
-* Creating new schemas and displaying all existing ones
-* Alternative ways to create a new object
-* Generate Script As shortcut menu item for check and default constraints
-* Sending objects to a database diagram
-* Renaming columns
-* Displaying the objects number
-* Object Editors
-* Completely redesigned Index Editor
-* Updated Check Constraint Editor
-* Updated Database Editor
-* Support of user types when working with tables
-* Schema Comparison
-* Custom mapping for tables
-* Updated Synchronization wizard
-* Zooming font size in Text Comparer
-* Data Comparison
-* Show white spaces option
-* Ignore computed columns option
-* Zooming font size in Data Viewer
-* Data Reporting
-* Support of report parameters in command-line interface
-* Query Profiler
-* Diagram printing options for a Query Profiler Plan Diagram
-* Data Editor
-* Data Viewer, LOB Editor, and Redirect Data to Output are combined in a single control
-* Zooming font size in Data Viewer and Editor Window
-* Data Export and Import
-* Updated Import and Export wizard
-* Generate Scripts
-* SQL Azure support
-* Security Manager
-* Creating and editing schemas
-* User Interface
-* Support of multiple monitors
-* Other Features and Improvements
-* Create Schema Snapshot and Data Report wizard windows are modeless
-* Improved application performance when executing a query, opening a table, designing a diagram, and building a query in the Query Builder
-* Windows 10 support
     </releaseNotes>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>

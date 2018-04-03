@@ -17,6 +17,7 @@ set "PACKAGE_NANE=%CURRENT_DIR_NAME%"
 set "SRC_DIR=%~dp0"
 set "BUILD_DIR=..\..\build\%PACKAGE_NANE%"
 
+cd nuspec
 if exist "%BUILD_DIR%" (
     for %%i IN (%BUILD_DIR%\*) DO del %%i
 ) else (
@@ -24,7 +25,6 @@ if exist "%BUILD_DIR%" (
 )
 
 rem  Create package.
-cd nuspec
 for %%i IN (%cd%\*.nuspec) DO call choco pack -y %%i --outputdirectory %BUILD_DIR%
 
 if not "%1" == "1" (

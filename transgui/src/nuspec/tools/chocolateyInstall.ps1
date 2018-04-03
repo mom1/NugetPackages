@@ -5,13 +5,13 @@ $version = $env:chocolateyPackageVersion
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
     installerType  = 'EXE'
-    url            = 'https://github.com/transmission-remote-gui/transgui/releases/download/v$version/transgui-$version-setup.exe'
-    url64bit       = 'https://github.com/transmission-remote-gui/transgui/releases/download/v$version/transgui-$version-setup.exe'
-    checksum       = '6112BBE09FEF0CC153C6F518BDEB661EC1E29EBC222D2AB4C35B5AE484AECF2F'
-    checksum64     = '6112BBE09FEF0CC153C6F518BDEB661EC1E29EBC222D2AB4C35B5AE484AECF2F'
+    url            = "https://github.com/transmission-remote-gui/transgui/releases/download/v$($version)/transgui-$($version)-setup.exe"
+    url64bit       = "https://github.com/transmission-remote-gui/transgui/releases/download/v$($version)/transgui-$($version)-setup.exe"
+    checksum       = '0BCBE23B02502417EFBB6FBD8F04DDECE39A552B622DFDD7AE24A31AA3C64D57'
+    checksum64     = '0BCBE23B02502417EFBB6FBD8F04DDECE39A552B622DFDD7AE24A31AA3C64D57'
     checksumType   = 'sha256'
     checksumType64 = 'sha256'
-    silentArgs     = '/silent /verysilent'
+    silentArgs     = '/CLOSEAPPLICATIONS /verysilent'
     validExitCodes = @(0, 1603)
 }
 Install-ChocolateyPackage @packageArgs
