@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ivideon-server</id>
+    <version>3.6.1</version>
+    <title>Ivideon Server</title>
+    <authors>Ivideon</authors>
+    <owners>MOM</owners>
+    <licenseUrl>http://www.ivideon.com/terms-of-service/</licenseUrl>
+    <projectUrl>http://www.ivideon.com/</projectUrl>
+    <iconUrl>https://pbs.twimg.com/profile_images/559648913603317760/gtM-k0xJ_400x400.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+Connect your webcams and IP cameras to the Ivideon Server and watch live video feeds and video archives via the Internet and LAN.
+Install Ivideon Server and watch your surveillance videos in your browser via your Ivideon account.</description>
+    <summary>Keep tabs on things while you’re away with event notifications and recordings stored either locally or in the cloud.</summary>
+    <releaseNotes>[Release Notes](https://www.ivideon.com/downloads/)
+    </releaseNotes>
+    <copyright>Ivideon</copyright>
+    <tags>ivideon video camera cloud admin</tags>
+    <packageSourceUrl>https://github.com/mom1/NugetPackages/tree/master/IvideonServer</packageSourceUrl>
+  </metadata>
+</package>
