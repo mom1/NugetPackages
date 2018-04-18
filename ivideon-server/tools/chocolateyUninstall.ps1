@@ -15,4 +15,4 @@ Uninstall-ChocolateyPackage -PackageName $packageName `
                                         -SilentArgs $silentArgs `
                                         -ValidExitCodes $validExitCodes `
                                         -File $file
-Remove-Item "${Env:ProgramFiles}\Ivideon" -Force  -Recurse -ErrorAction SilentlyContinue
+Remove-Item "${Env:ProgramFiles}\Ivideon\IvideonServer" -Force  -Recurse -ErrorAction SilentlyContinue

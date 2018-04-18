@@ -18,6 +18,6 @@ Install Ivideon Server and watch your surveillance videos in your browser via yo
     </releaseNotes>
     <copyright>Ivideon</copyright>
     <tags>ivideon video camera cloud admin</tags>
-    <packageSourceUrl>https://github.com/mom1/NugetPackages/tree/master/IvideonServer</packageSourceUrl>
+    <packageSourceUrl>https://github.com/mom1/NugetPackages/tree/master/ivideon-server</packageSourceUrl>
   </metadata>
 </package>
