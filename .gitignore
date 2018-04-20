@@ -182,8 +182,6 @@ $RECYCLE.BIN/
 # Mac crap
 .DS_Store
 
-#Ignore generated nupkg files
-*.nupkg
 
 #############
 ## Python
